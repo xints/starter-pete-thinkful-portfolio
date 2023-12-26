@@ -106,7 +106,7 @@ article div p {text-align:left;}
 
 /* for porfolio section */
 
-.portfolio{
+.portfolioStyle{
   display:flex;
   justify-content:space-between;
 }
