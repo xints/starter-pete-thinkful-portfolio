@@ -78,12 +78,22 @@ hr {
   border: 1px solid black;
 }
 
+/* ------------------------------------------------------------ */
+
+
+/* Answer & Solution Below */
+
+/* ------------------------------------------------------------ */
+
+/* for header */
 .headerFlexbox {
 display:flex;
 flex-direction:row;
 align-items: center;
 justify-content:center;
 }
+
+/* for hi "i'm pete" section */
 .hiSection{
   display:flex;
   flex-direction: row;
@@ -93,5 +103,22 @@ justify-content:center;
 
 article div ul {text-align:left;}
 article div p {text-align:left;}
+
+/* for porfolio section */
+
+.portfolio{
+  display:flex;
+  justify-content:space-between;
+}
+article div section p{ 
+  font-size: 14px;
+  margin:10%;
+ 
+}
+.imgPortfolio{
+  height:300px;
+ 
+
+}
 
 
