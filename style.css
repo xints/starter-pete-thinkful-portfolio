@@ -65,6 +65,7 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+
 }
 
 /* Footer */
@@ -76,3 +77,21 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.headerFlexbox {
+display:flex;
+flex-direction:row;
+align-items: center;
+justify-content:center;
+}
+.hiSection{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+
+}
+
+article div ul {text-align:left;}
+article div p {text-align:left;}
+
+
